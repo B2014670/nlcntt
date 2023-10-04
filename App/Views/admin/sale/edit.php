@@ -7,7 +7,7 @@
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="<?= DOCUMENT_ROOT?>/admin">Trang chủ</a></li>
-              <li class="breadcrumb-item active"><a href="<?= DOCUMENT_ROOT?>/admin/sale">Khuyến mãi</a></li>
+              <li class="breadcrumb-item active"><a href="<?= DOCUMENT_ROOT?>/admin/sales">Khuyến mãi</a></li>
               <li class="breadcrumb-item active">Chỉnh sửa</li>
             </ol>
           </div>
@@ -22,7 +22,7 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="<?php DOCUMENT_ROOT ?>/admin/sale/update/<?= $data['vege']['id'] ?>" method="post" enctype="multipart/form-data">
+              <form action="<?php DOCUMENT_ROOT ?>/admin/sales/update/<?= $data['vege']['id'] ?>" method="post" enctype="multipart/form-data">
                 <div class="card-body">
                     <div class="row">
                         <div class="col">

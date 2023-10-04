@@ -24,7 +24,7 @@
               <div class="card-header">
                   <div class="d-flex justify-content-between align-items-center">
                       <h4>Danh sách sản phẩm khuyến mãi</h4>
-                      <a class="btn btn-primary" href="<?= DOCUMENT_ROOT ?>/admin/sale/create">Thêm sản phẩm khuyến mãi</a>
+                      <a class="btn btn-primary" href="<?= DOCUMENT_ROOT ?>/admin/sales/create">Thêm sản phẩm khuyến mãi</a>
                   </div>                 
               </div>
               <div class="card-body">
@@ -53,7 +53,7 @@
                       </td>
                       <td>
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <a href="<?= DOCUMENT_ROOT ?>/admin/sale/edit/<?= $vege["id"] ?>" class="btn btn-info">Chỉnh sửa</a>
+                            <a href="<?= DOCUMENT_ROOT ?>/admin/sales/edit/<?= $vege["id"] ?>" class="btn btn-info">Chỉnh sửa</a>
                             <button onclick="deleteSale(<?= $vege['id'] ?>)" class="btn btn-danger">Xóa</button>
                         </div>
                       </td>
