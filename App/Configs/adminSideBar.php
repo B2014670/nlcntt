@@ -25,7 +25,7 @@
                 "title" => "Nguồn gốc",
                 "name" => "orig",
                 "icon" => "nav-icon fas fa-tractor",
-                "link" => DOCUMENT_ROOT."/admin/original"
+                "link" => DOCUMENT_ROOT."/admin/originals"
             ],
 
             "Đơn hàng" => [
@@ -39,21 +39,21 @@
                 "title" => "Khách hàng",
                 "name" => "customers",
                 "icon" => "nav-icon fas fas fa-users",
-                "link" => DOCUMENT_ROOT."/admin/customer"
+                "link" => DOCUMENT_ROOT."/admin/customers"
             ],
 
             "Khuyến mãi" => [
                 "title" => "Khuyến mãi",
                 "name" => "orders",
                 "icon" => "nav-icon fas fas fa-percent",
-                "link" => DOCUMENT_ROOT."/admin/sale"
+                "link" => DOCUMENT_ROOT."/admin/sales"
             ],
 
             "Bình luận & Đánh giá" => [
                 "title" => "Bình luận & Đánh giá",
                 "name" => "feedbacks",
                 "icon" => "nav-icon far fa-comment",
-                "link" => DOCUMENT_ROOT."/admin/feedback"
+                "link" => DOCUMENT_ROOT."/admin/feedbacks"
             ],
 
             "Đăng xuất" => [

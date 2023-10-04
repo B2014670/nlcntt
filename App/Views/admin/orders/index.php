@@ -56,7 +56,7 @@
                       <td><?= $order["deli_time"] ?></td>
                       <td>
                         <div class="btn-group" role="group" aria-label="Basic example">
-                          <a href="<?= DOCUMENT_ROOT ?>/admin/orders/details/<?= $order["id"] ?>" class="btn btn-info">Xem chi tiết</a>
+                          <a href="<?= DOCUMENT_ROOT ?>/admin/orders/details/<?= $order["id"] ?>" class="btn btn-info">Chi tiết</a>
                         </div>
                       </td>
                     </tr>

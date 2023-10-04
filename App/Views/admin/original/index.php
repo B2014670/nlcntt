@@ -24,7 +24,7 @@
               <div class="card-header">
                   <div class="d-flex justify-content-between align-items-center">
                       <h4>Thông tin nguồn gốc</h4>
-                      <a class="btn btn-primary" href="<?= DOCUMENT_ROOT ?>/admin/original/create">Thêm nguồn gốc mới</a>
+                      <a class="btn btn-primary" href="<?= DOCUMENT_ROOT ?>/admin/originals/create">Thêm nguồn gốc mới</a>
                   </div>
               </div>
               <div class="card-body">
@@ -45,7 +45,7 @@
                       <td><?= $orig["planting_place"] ?></td>
                       <td>
                         <div class="btn-group" role="group" aria-label="Basic example">
-                          <a href="<?= DOCUMENT_ROOT ?>/admin/original/edit/<?= $orig["id"] ?>" class="btn btn-info">Chỉnh sửa</a>
+                          <a href="<?= DOCUMENT_ROOT ?>/admin/originals/edit/<?= $orig["id"] ?>" class="btn btn-info">Chỉnh sửa</a>
                           <button onclick="deleteOrig(<?= $orig['id'] ?>)" class="btn btn-danger">Xóa</button>
                         </div>
                       </td>
